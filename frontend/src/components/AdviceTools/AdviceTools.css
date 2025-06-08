@@ -1,0 +1,207 @@
+.advice-tools {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tool-card {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 100%;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(220, 53, 69, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: #dc3545;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover .tool-icon {
+  background: #dc3545;
+  color: white;
+  transform: scale(1.1);
+}
+
+.tool-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.tool-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.tool-link {
+  color: #dc3545;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.tool-link:hover {
+  color: #c82333;
+  gap: 0.8rem;
+}
+
+@media (max-width: 767.98px) {
+  .advice-tools {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tool-card {
+    padding: 1.5rem;
+  }
+}
+
+.advice-tools-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.tool-card {
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: inherit;
+}
+
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #fef2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.tool-icon svg {
+  font-size: 1.5rem;
+  color: #dc3545;
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover .tool-icon {
+  background-color: #dc3545;
+}
+
+.tool-card:hover .tool-icon svg {
+  color: white;
+  transform: scale(1.1);
+}
+
+.tool-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.tool-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.view-now {
+  color: #dc3545;
+  font-weight: 500;
+  font-size: 0.95rem;
+  position: relative;
+  display: inline-block;
+}
+
+.view-now::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #dc3545;
+  transition: width 0.3s ease;
+}
+
+.tool-card:hover .view-now::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .advice-tools-section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .tool-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1.25rem;
+  }
+
+  .tool-title {
+    font-size: 1.1rem;
+  }
+
+  .tool-description {
+    font-size: 0.9rem;
+  }
+} 

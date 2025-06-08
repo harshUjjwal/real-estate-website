@@ -1,0 +1,60 @@
+.price-trends {
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.price-trends .card-header {
+  background-color: #dc3545;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+.price-trends .card-body {
+  padding: 2rem;
+}
+
+.chart-container {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.trend-summary {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.trend-summary h6 {
+  color: #dc3545;
+  margin-bottom: 0.5rem;
+}
+
+.trend-summary p {
+  color: #666;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .price-trends {
+    margin: 1rem;
+  }
+
+  .price-trends .card-body {
+    padding: 1rem;
+  }
+
+  .chart-container {
+    margin: 1rem 0;
+    padding: 0.5rem;
+  }
+
+  .trend-summary {
+    padding: 1rem;
+  }
+} 
